@@ -1,0 +1,108 @@
+body{
+    background-color: #eff2f6;
+    color: #1e6388
+}
+
+
+.education{
+    display: block;
+ background-color: #bac7d3;
+   padding: 10px;
+   border-style: solid;
+   border-width: 1.5px;
+   border-color: #dbe2e7;
+   margin: auto;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+.total{
+ background-color: #bac7d3;
+   padding: 10px;
+   border-style: solid;
+   border-width: 1.5px;
+   border-color: #dbe2e7;
+   margin: auto;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+
+.work-experience{
+ background-color: #bac7d3;
+   padding: 10px;
+   border-style: solid;
+   border-width: 1.5px;
+   border-color: #dbe2e7;
+   margin: auto;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+
+.job-wage-hourly{
+   background-color: #1e6388;
+   padding: 10px;
+   border-style: solid;
+   border-width: 1.5px;
+   border-color: #84a0b7;
+   margin: auto;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+.job-wage-annual{
+   background-color: #1e6388;
+   padding: 10px;
+   border-style: solid;
+   border-width: 1.5px;
+   border-color: #84a0b7;
+   margin: auto;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+
+
+.projected-growth{
+   background-color: #1e6388;
+   padding: 10px;
+   border-style: solid;
+   border-width: 1.5px;
+   border-color: #84a0b7;
+   margin: auto;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+.job-wage-hourly h3{
+    color:#eff2f6;
+    margin: auto;
+    
+}
+
+.job-wage-annual h3{
+    color:#eff2f6;
+    margin: auto;
+}
+
+.projected-growth h3{
+    color:#eff2f6;
+    margin: auto;
+}
+
+.aboutdata{
+    background-color: #ffffff;
+    padding: 10px;
+   border-style: solid;
+   border-width: 1.5px;
+   border-color: #84a0b7;
+   margin: auto;
+   margin-top: 20px;
+   margin-bottom: 50px; 
+}
+
+.site-description{
+    background-color: #ffffff;
+    padding: 10px;
+   border-style: solid;
+   border-width: 1.5px;
+   border-color: #84a0b7;
+   margin: auto;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}

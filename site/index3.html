@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>J586 Project03</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Avery Thomas">
+
+    <!-- Style Sheets-->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="js/dropdown/css/sexy-combo.css" />
+
+    
+    <!-- Java Script-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script src="js/script3.js"></script>
+    <script type="text/javascript" src="js/dropdown/jquery.sexy-combo.js"></script>
+    <script src="http://code.highcharts.com/highcharts.js"></script>
+    <script src="http://code.highcharts.com/modules/exporting.js"></script>
+ 
+  </head>
+  <div class="container">
+  <div class="row">
+  <div class="col-md-12">
+    <div class="site-title">
+      <h1><center>Architecture and Engineering Occupations</center></h1>
+    </div>
+    <div class="site-description">
+      <h4>About Site</h4>
+      <p>This site was designed as a means of understanding basic information about popular career paths in architecture and engineering in the United States. It allows users to gage the differences between job titles by presenting some straightforward data about the requirements and wages recieved by different careers.</p>
+    </div>
+    <div class="job-selection"></div>
+      <label for="selectbox"><h4>Choose Occupation:</h4></label><br />
+      <select id="selectbox" name="selectbox"  size="1" onchange="run(); generateChart()">
+      </select>
+  </div>
+  <div class="row">
+  <div class= "col-md-12">
+    <div id="job-title">
+      <h2><center><div id="job-title-p"></div></center></h2>
+    </div>
+    </div>
+  </div>
+  
+
+  <div class="row">
+    <div class="col-md-4">
+    <div class="total">
+      <center><h4>Number in Workforce:<h3><div id="total-p"></div></h3></h4></center>
+    </div>
+    </div>
+    <div class="col-md-4">
+    <div class="education">
+      <center><h4>Education:<h3><div id="education-p"></div></h3></h4></center>
+    </div>
+    </div>
+    <div class="col-md-4">
+    <div class="work-experience">
+      <center><h4>Work Experience:<h3><div id="work-experience-p"></div></h3></h4></center>
+    </div>
+  </div>
+  </div>
+  
+  <div class="row">
+  <div class="col-md-8">
+    <div class="job-wage-chart"></div>
+    <div id="annual-chart" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+  </div>
+  <div class="col-md-4">
+    <div class="job-wage-hourly">
+      <center>
+      <h3>Average Hourly Wage</h3>
+      <h3><div id="job-wage-hourly-p"></div></h3>
+      </center>
+    </div>
+    <div class="job-wage-annual">
+      <center>
+      <h3>Average Annual Salary</h3>
+      <h3><div id="job-wage-annual-p"></div></h3>
+      </center>
+    </div>
+    <div class="projected-growth">
+      <center>
+      <h3>Change in Available Positions</h3>
+      <h3><div id="projected-growth-p"></div></h3>
+      </center>
+    </div>
+  </div>
+  </div>
+  <div class="row">
+  <div class="col-md-12">
+    <div class="aboutdata">
+      <h4>About the Data</h4>
+      <p>All of the data was obtained from the U.S. Department of Labor's Bureau of Labor Statistics, which is the Federal agency responsible for measuring labor market activity, working conditions, and price changes in the economy. It's goal is to collect, analyze and disseminate essential economic information to support public and private decision-making. As an indpendent statisitcal agency, BLS serves its diverse user communities by providing products and services that are objective, timely, accurate, and relevant.</p>
+    </div>
+  </div>
+  </div>
+  </div>
+  
+
+  
+    <script src="js/bootstrap.min.js"></script>
+    
+    
+
+  </body>
+</html>
